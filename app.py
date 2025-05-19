@@ -19,7 +19,7 @@ CORS(app)
 
 UPLOAD_FOLDER = './uploaded_videos'
 LANDMARKS_DIR = './guide_landmarks/guide_landmarks'
-SYLLABLE_LANDMARKS_DIR = 'C:/Users/julia/projectj/guide_landmarks/발음녹화_음절'
+SYLLABLE_LANDMARKS_DIR = './guide_landmarks/guide/발음녹화_음절'
 EXCEL_PATH = './guide_landmarks/letters_for_letters.xlsx'
 syllable_book = pd.read_excel(EXCEL_PATH, sheet_name=None)  # 모든 시트를 딕셔너리로 불러옴
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
