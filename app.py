@@ -52,8 +52,8 @@ def compare_lip_shape(user_data, ref_data):
 def give_lip_feedback(distance):
     if distance < 0.13:
         return "정확해요!"
-    elif distance < 0.20:
-        return "조금 더 크게!"
+    elif distance < 0.21:
+        return "나쁘지 않아요!"
     else:
         return "입모양이 많이 달라요."
 
